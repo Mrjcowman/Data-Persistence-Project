@@ -298,11 +298,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 0.47058824, b: 0, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.7479339, b: 0.53305787, a: 1}
+    m_NormalColor: {r: 0.9490196, g: 0.4862745, b: 0.101960786, a: 1}
+    m_HighlightedColor: {r: 1, g: 0.69803923, b: 0.44705883, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.5, g: 0.36764705, b: 0.25, a: 1}
+    m_SelectedColor: {r: 0.99215686, g: 0.60784316, b: 0.28627452, a: 1}
+    m_DisabledColor: {r: 0.6039216, g: 0.27450982, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -322,7 +322,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 933017006}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuUiHandler, Assembly-CSharp
         m_MethodName: OnExitButtonPressed
         m_Mode: 1
         m_Arguments:
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -851,11 +851,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7058824, g: 1, b: 0, a: 1}
-    m_HighlightedColor: {r: 0.8636364, g: 1, b: 0.5371901, a: 1}
+    m_NormalColor: {r: 0.62352943, g: 0.8862745, b: 0.09411765, a: 1}
+    m_HighlightedColor: {r: 0.77254903, g: 0.9490196, b: 0.42352942, a: 1}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.42647058, g: 0.5, b: 0.25, a: 1}
+    m_SelectedColor: {r: 0.7058824, g: 0.9254902, b: 0.26666668, a: 1}
+    m_DisabledColor: {r: 0.3764706, g: 0.5647059, b: 0, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -875,7 +875,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 933017006}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_TargetAssemblyTypeName: MainMenuUiHandler, Assembly-CSharp
         m_MethodName: OnStartButtonPressed
         m_Mode: 1
         m_Arguments:
